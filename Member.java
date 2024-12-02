@@ -1,11 +1,17 @@
 package com.myproject;
 
-class Member extends LibraryPerson {
+class Member {
     private String memberID;
+    public String name;
 
     public Member(String name, String memberID) {
-        super(name);
+
         this.memberID = memberID;
+        this.name=name;
+
+    }
+    public String getName() {
+        return name;
     }
 
 
@@ -19,6 +25,7 @@ class Member extends LibraryPerson {
 
 
     public String toString() {
-        return super.toString() + " | Member ID: " + memberID;
+        return "Member Name: "+name+  " | Member ID: " + memberID;
     }
+}
 }
