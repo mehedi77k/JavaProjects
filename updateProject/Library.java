@@ -22,7 +22,7 @@ class Library {
     {
         books.add(new Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling","01"));
         books.add(new Book("Devdas", "SRK","2"));
-        books.add(new Book("CokherBali", "SRK","3"));
+        books.add(new Book("CokherBali", "RobiTagor","3"));
     }
 
 
