@@ -1,20 +1,21 @@
 package com.myproject;
 
 class Book {
-    private String title; //stores title of the book
-    private String author;//store author name
-    private String bookID;//store unique identifier of the book
-                         //private means this variables can be accessed directly in the book class
-    public Book(String title, String author, String bookID) { //constractor and parameters
+    private String title; 
+    private String author;
+    private String bookID;
+                         
+    public Book(String title, String author, String bookID) {
+
         this.title = title;
         this.author = author;
         this.bookID = bookID;
     }
 
     public String getBookID() {
-    //public means this method can accessed outside of the class
+    
 
-        return bookID;//return the value of the instance variable
+        return bookID;
     }
 
 
