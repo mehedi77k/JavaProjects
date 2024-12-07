@@ -9,27 +9,28 @@ class Library {
 
     private String name;
     private List<Book> books = new ArrayList<>();
-    //private ArrayList<Book> books;
+
     private ArrayList<Librarian> librarians;
     private static List<Member> members = new ArrayList<>();
     {
-        members.add(new Member("Mehedi Hasan", "241-50-001"));
-        members.add(new Member("Fahim Shahriar", "241-50-002"));
-        members.add(new Member("Taohid Ayon", "241-50-003"));
-        members.add(new Member("Sadman Sakib", "241-50-004"));
-        members.add(new Member("Abid Chowdhury", "241-50-011"));
+        members.add(new Member("Mehedi ", "1"));
+        members.add(new Member("Rana", "2"));
+        members.add(new Member("Rafim", "3"));
+        members.add(new Member("Sozol", "4"));
+
     }
     {
         books.add(new Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling","01"));
-        books.add(new Book("", "",""));
+        books.add(new Book("Devdas", "SRK","2"));
+        books.add(new Book("CokherBali", "SRK","3"));
     }
 
 
     public Library(String name) {
         this.name = name;
-        //this.books = new ArrayList<>();
+
         this.librarians = new ArrayList<>();
-        //this.members = new ArrayList<>();
+
 
     }
 
@@ -159,10 +160,6 @@ class Library {
             System.out.println("ADMIN REGISTERD !");
         }
     }
-    /*public void print(){
-        System.out.println(theAdmins[0].name);
-        System.out.printf(theAdmins[0].regNum);
-    }*/
 
     public int Adminlogin() {
         // Display message only
