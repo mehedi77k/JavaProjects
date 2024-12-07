@@ -12,12 +12,7 @@ class Member {
     }
     public String getName() {
         return name;
-    }
-
-
-    public void performDuties() {
-        System.out.println("Member borrowing and returning books.");
-    }
+    }
 
     public String getMemberID() {
         return memberID;
