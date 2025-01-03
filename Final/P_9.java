@@ -39,7 +39,7 @@ class Rectangle implements Shape {
 
     @Override
     public double perimeter() {
-        return 2 * (length + width); // Corrected the formula for perimeter.
+        return 2 * (length + width); 
     }
 }
 
@@ -66,11 +66,10 @@ class Triangle implements Shape {
 
 public class P_9 {
     public static void main(String[] args) {
-        Shape c = new Circle(5);          // Circle instance.
-        Shape r = new Rectangle(20, 25);  // Rectangle instance.
-        Shape t = new Triangle(25, 26, 27); // Triangle instance.
+        Shape c = new Circle(5);
+        Shape r = new Rectangle(20, 25);
+        Shape t = new Triangle(25, 26, 27);
 
-        // Calling instance methods through objects to compute and display results.
         System.out.println("Circle: Area = " + c.area() + ", Perimeter = " + c.perimeter());
         System.out.println("Rectangle: Area = " + r.area() + ", Perimeter = " + r.perimeter());
         System.out.println("Triangle: Area = " + t.area() + ", Perimeter = " + t.perimeter());
