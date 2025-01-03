@@ -1,7 +1,5 @@
 package Final;
 
-
-
 class University{
     void  display(){
         System.out.println("Daffodil International University");
