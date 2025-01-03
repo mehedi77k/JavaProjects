@@ -14,8 +14,5 @@ public class CopyArray {
             System.out.println(arr1[i]);
 
         }
-
-
-
     }
 }
