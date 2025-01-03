@@ -23,5 +23,6 @@ public class ArithmeticOperators {
         result=num1%num2;
         System.out.println("MODULUS= "+result);
 
+
     }
 }
