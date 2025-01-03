@@ -7,7 +7,7 @@ interface B{
 
 }
 class C implements A,B{
-    public void play(){                    //public void lekha must naile error
+    public void play(){ 
         System.out.println("Hello This is Mehedi");
     }
 }
